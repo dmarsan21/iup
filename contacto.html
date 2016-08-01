@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Instituto Universitario Puebla - Ingenieria</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- CSS Personalizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!-- Font awesome -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- Favicon -->	
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />	
+
+</head>
+<body>
+
+	
+	<!-- Navegación -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+		<!-- Icono mostrado para movil -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">IUP</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="index.html" class="navbar-brand"><img src="img/logo-footer.png" class="img-responsive" alt="" width="155px"></a>
+		</div>
+
+		<!-- Contenido de navbar -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="">Mision y Vision</a></li>
+						<li role="separator" class="divider"></li>
+						<li>&nbsp; &nbsp; - Reglamento -</li>
+						<li><a href="documentos/Reglamento-BACH.pdf" target="_blank">Bachillerato</a></li>
+						<li><a href="documentos/REGLAMENTO-IUP.pdf" target="_blank">Licenciatura</a></li>
+						<li><a href="documentos/REGLAMENTO-IUP.pdf" target="_blank">Maestria</a></li>						
+						<li><a href="documentos/REGLAMENTO-IUP.pdf" target="_blank">Doctorado</a></li>
+
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Oferta Educativa <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="preescolar.html">Preescolar</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="bachillerato.html">Bachillerato</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="licenciaturas.html">Licenciaturas</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="ingenierias.html">Ingenierias</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="maestrias.html">Maestrias</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="doctorados.html">Doctorados</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Titulación <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="documentos/TitulacionLicenciatura.pdf" target="_blank">Licenciatura</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="documentos/TitulacionMaestria.pdf" target="_blank">Maestria</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="documentos/TitulacionDoctorado.pdf" target="_blank">Doctorado</a></li>
+					</ul>
+				</li>
+				<li class=" active">
+					<a href="contacto.html" class="page-scroll">Contacto</a>
+				</li>
+			</ul>
+		</div>
+		<!-- navbar-collapse-->
+		</div>
+		<!-- container-fluid -->
+	</nav>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="jumbotron bachillerato">
+  					<img src="img/logo-footer.png" alt="">
+  					<h1>Instituto Universitario Puebla</h1>
+  					<p>Inscripciones Abiertas</p>
+  					
+				</div>
+			</div>
+		</div>		
+	</header>
+
+	<!-- Seccion de Contenido -->
+	<section id="presentacion">
+		<div class="container">
+			<div class="row">
+				<div class="text-center">
+					<h2><strong>Instituto Universitario Puebla</strong></h2>
+					<h3>Inscripciones Abiertas</h3>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-lg-12 contacto2">
+					<form action="email.php" method="post">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Tu nombre *" id="name" name="name" required>
+									<p class="help-block text-danger"></p>
+								</div>
+								<div class="form-group">
+									<select name="plantel" class="form-control">
+									  <option selected disabled>Selecciona el Plantel</option>
+									  <option value="Plantel Puebla">Plantel Puebla</option>
+									  <option value="Plantel Xalapa">Plantel Xalapa</option>
+									  <option value="Plantel Cordoba">Plantel Cordoba</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<select name="nivel" class="form-control">
+									  <option selected disabled>Nivel de estudios</option>		
+									  <option name="nivel" value="Preescolar">Preescolar</option>
+									  <option name="nivel" value="Bachilleres">Bachilleres Puebla</option>
+									  <option name="nivel" value="Licenciatura">Licenciaturas</option>
+									  <option name="nivel" value="Maestria">Maestria</option>
+									  <option name="nivel" value="Doctorado">Doctorado</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Tu email *" id="email" name="email" required>
+									<p class="help-block text-danger"></p>
+								</div>
+								
+								<div class="form-group">
+									<input type="tel" class="form-control" placeholder="Tu telefono *" id="phone" name="phone" required>
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<textarea id="message" name="message" placeholder="Esta interesado en alguna licenciatura, maestria o doctorado, contactenos y con gusto lo atenderemos  *" class="form-control" required></textarea>
+									<p class="help-block text-danger"></p>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="col-lg-12 text-center">
+								<div id="success"></div>
+								<button type="submit" class="btn btn-xl">Enviar Mensaje</button>
+							</div>
+						</div>
+					</form>
+				</div> <!-- termina form -->
+			</div>
+			<hr>
+			<div class="row mapas">
+				<div class="col-lg-6 col-xs-12 embed-responsive ubicacion">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5166241281704!2d-98.20924797218512!3d19.0410101477828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0dab2187f79%3A0x15fe5e040fa2b7e8!2sAv+19+Pte+908%2C+Insurgentes+Chula+Vista%2C+72410+Puebla%2C+Pue.!5e0!3m2!1ses!2smx!4v1469813184863" width="400" height="300" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 col-xs-12  direccion">
+					<address>
+					  <strong>Instituto Universitario Puebla</strong><br>
+					  <i class="fa fa-building-o"></i> Plantel Puebla<br>
+					  Av. 19 pte. #908<br>
+					  Col. Insurgentes Chula Vista CP.72410<br>
+					  <i class="fa fa-phone"></i> Tel: (222) 2-40-15-90 <br>
+					  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+					</address>
+				</div>
+			</div>
+			<div class="row  mapas">
+				<div class="col-lg-6 col-xs-12 embed-responsive ubicacion">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.5325348751903!2d-96.93002258552202!3d19.561673041610685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db2e24711437c5%3A0xaf7f397d3c6d8927!2sInstituto+Universitario+Puebla!5e0!3m2!1ses!2smx!4v1469812678182" width="600" height="450" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 col-xs-12 direccion">
+					<address>
+					  <strong>Instituto Universitario Puebla</strong><br>
+					  <i class="fa fa-building-o"></i> Plantel Xalapa<br>
+					  Av. Xalapa #560<br>
+					  Col. Rafael Lucio CP. 91110<br>
+					  <i class="fa fa-phone"></i> Tel: (228) 8-90-24-83 <br>
+					  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+					</address>
+				</div>
+			</div>
+			<div class="row mapas">
+				<div class="col-lg-6 col-xs-12 embed-responsive ubicacion">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.864639556894!2d-96.94242188553162!3d18.893085262607144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e51377d98c89%3A0xe0782e9e6933518c!2sInstituto+Universitario+Puebla!5e0!3m2!1ses!2smx!4v1469812881326" width="600" height="450" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-lg-6 col-xs-12 direccion">
+					<address>
+					  <strong>Instituto Universitario Puebla</strong><br>
+					  <i class="fa fa-building-o"></i> Plantel Cordoba<br>
+					  Av. 9 Bis #600<br>
+					  Fracc. San Jose CP. 94560<br>
+					  <i class="fa fa-phone"></i> Tel: (227) 7-17-64-89 <br>
+					  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+					</address>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	<br><br><br><br>
+	
+
+	<!-- Seccion de escuelas -->
+	<section id="contact">
+		<div class="container-fluid planteles">
+			
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 footer-logo">
+						<img src="img/logo-footer2.png" class="img-responsive center-block" alt="">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 plantel">
+						<address>
+						  <strong>Instituto Universitario Puebla</strong><br>
+						  <i class="fa fa-building-o"></i> Plantel Puebla<br>
+						  Av. 19 pte. #908<br>
+						  Col. Insurgentes Chula Vista CP.72410<br>
+						  <i class="fa fa-phone"></i> Tel: (222) 2-40-15-90 <br>
+						  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+						</address>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 plantel">
+						<address>
+						  <strong>Instituto Universitario Puebla</strong><br>
+						  <i class="fa fa-building-o"></i> Plantel Xalapa<br>
+						  Av. Xalapa #560<br>
+						  Col. Rafael Lucio CP. 91110<br>
+						  <i class="fa fa-phone"></i> Tel: (228) 8-90-24-83 <br>
+						  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+						</address>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 plantel">
+						<address>
+						  <strong>Instituto Universitario Puebla</strong><br>
+						  <i class="fa fa-building-o"></i> Plantel Cordoba<br>
+						  Av. 9 Bis #600<br>
+						  Fracc. San Jose CP. 94560<br>
+						  <i class="fa fa-phone"></i> Tel: (227) 7-17-64-89 <br>
+						  <i class="fa fa-envelope-o"></i> email: contacto@iup.mx <br>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="copyright">Copyright &copy; IUP 2016</span>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline  social-buttons">
+						<li><a href="https://twitter.com/ContactoIUP" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/IUPMEX" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline quicklinks privacidad">
+						<li><a href="#" target="_blank">Aviso de privacidad</a></li>
+						<!-- <li><a href="#"></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- Integracion de jquery -->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Integracion de javascript -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

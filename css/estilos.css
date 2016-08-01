@@ -1,0 +1,662 @@
+a,
+a:hover,
+a:focus,
+a.active {
+  outline: 0;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fff;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 650px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 650px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.burbuja {
+  padding-top: 25px;
+}
+
+
+
+/*Seccion cursos*/
+.curso {
+  padding-top: 50px;
+}
+
+.izquierda-preescolar {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.derecha-preescolar {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-preescolar {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #2C3E50;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-preescolar {
+  height: 75px;
+  background-color: #D35400;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-preescolar>p {
+  padding-top: 5px;
+}
+
+.dos-preescolar {
+  height: 75px;
+  background-color: #E67E22;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-preescolar>p {
+  padding-top: 5px;
+}
+
+.tres-preescolar {
+  height: 75px;
+  background-color: #F39C12;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-preescolar>p {
+  padding-top: 5px;
+}
+
+.izquierda-prepa {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 1.8em;
+  padding-bottom: 5px;
+  padding-top: 12px;
+}
+
+.derecha-prepa {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-prepa {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #229954;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-prepa {
+  height: 75px;
+  background-color: #0B5345;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-prepa>p {
+  padding-top: 5px;
+}
+
+.dos-prepa {
+  height: 75px;
+  background-color: #9A7D0A;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-prepa>p {
+  padding-top: 5px;
+}
+
+.tres-prepa {
+  height: 75px;
+  background-color: #AF7AC5;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-prepa>p {
+  padding-top: 5px;
+}
+
+.izquierda-lic {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 1.8em;
+  padding-bottom: 5px;
+  padding-top: 12px;
+}
+
+.derecha-lic {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-lic {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #8E44AD;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-lic {
+  height: 75px;
+  background-color: #76D7C4;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-lic>p {
+  padding-top: 5px;
+}
+
+.dos-lic {
+  height: 75px;
+  background-color: #F4D03F;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-lic>p {
+  padding-top: 5px;
+}
+
+.tres-lic {
+  height: 75px;
+  background-color: #EC7063;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-lic>p {
+  padding-top: 5px;
+}
+
+.izquierda-ing {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 1.8em;
+  padding-bottom: 5px;
+  padding-top: 12px;
+}
+
+.derecha-ing {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-ing {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #3498DB;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-ing {
+  height: 75px;
+  background-color: #C0392B;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-ing>p {
+  padding-top: 5px;
+}
+
+.dos-ing {
+  height: 75px;
+  background-color: #E67E22;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-ing>p {
+  padding-top: 5px;
+}
+
+.tres-ing {
+  height: 75px;
+  background-color: #2C3E50;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-ing>p {
+  padding-top: 5px;
+}
+
+.izquierda-master {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 2.2em;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+
+.derecha-master {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-master {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #DF2512;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-master {
+  height: 75px;
+  background-color: #40EAE0;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-master>p {
+  padding-top: 5px;
+}
+
+.dos-master {
+  height: 75px;
+  background-color: #0EBEB6;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-master>p {
+  padding-top: 5px;
+}
+
+.tres-master {
+  height: 75px;
+  background-color: #6DB724;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-master>p {
+  padding-top: 5px;
+}
+
+.izquierda-doc {
+  height: 100px;
+  background-color: #EEEEEE;
+  color: #2C3E50;
+  font-size: 2.2em;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+
+.derecha-doc {
+  height: 100px;
+  background-color: #DBDBDB;
+  color: #17202A;
+  font-size: 2em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mensaje-doc {
+  height: 35px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #474949;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.uno-doc {
+  height: 75px;
+  background-color: #111B1A;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.uno-doc>p {
+  padding-top: 5px;
+}
+
+.dos-doc {
+  height: 75px;
+  background-color: #EBA232;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.dos-doc>p {
+  padding-top: 5px;
+}
+
+.tres-doc {
+  height: 75px;
+  background-color: #8C9304;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.tres-doc>p {
+  padding-top: 5px;
+}
+
+.portfolio-item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*Footer*/
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #DC2A3A;
+}
+
+.footer-logo {
+  padding-top: 70px;
+}
+
+.planteles {
+  /*height: 275px;*/
+  background-color: #252525;
+  color: #fff;
+}
+
+.plantel {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+
+/*Estilos demas páginas*/
+
+.jumbotron {
+  margin-top: 76px;
+  background-image: url(../img/paginas/preescolar2.jpg);
+  color: #fff;
+  background-attachment: fixed;
+  min-height: 400px;
+  margin-bottom: 8px;
+}
+
+.preescolar {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.direccion {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.bachillerato {
+  margin-top: 76px;
+  background-image: url(../img/paginas/bachillerato.jpg);
+  color: #fff;
+  background-attachment: fixed;
+  min-height: 400px;
+  margin-bottom: 8px;
+}
+
+
+/*Links contacto */
+.contacto2 {
+  margin-top: 35px;
+}
+
+.contacto2 a, 
+.contacto2 a:hover,
+.contacto2 a:focus,
+.contacto2 a:active {
+  color: #fff;
+}
+
+/*Aviso de Privacidad*/
+ul.privacidad li a, 
+ul.privacidad li a:hover, 
+ul.privacidad li a:focus, 
+ul.privacidad li a:active {
+  color: #2E4053;
+} 
+
+/*Google maps*/
+.google-maps {
+position: relative;
+padding-bottom: 75%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 90% !important;
+height: 70% !important;
+}
+
+
+/*Mapas google*/
+.mapas {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*Seccion de contacto*/
+.contacto .form-group {
+  margin-bottom: 25px;
+}
+
+.contacto .form-group input,
+
+.contacto .form-group textarea {
+  padding: 10px;
+}
+
+.contacto .form-group input.form-control {
+    height: auto;
+}
+
+.contacto .form-group textarea.form-control {
+    height: 293px;
+    /*height: 353px;*/
+}
+
+
+.btn-xl {
+  padding: 20px 40px;
+  border-color: #5D9200;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #76B900;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #5D9200;
+    color: #fff;
+    background-color: #5D9200;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #5D9200;
+    background-color: #5D9200;
+}
+
+.btn-xl .badge {
+    color: #5D9200 ;
+    background-color: #fff;
+}
+
+/*Direcciones de contacto*/
+.direccion {
+  font-size: 25px;
+}
+
+.ubicacion {
+  height: 350px;
+}
